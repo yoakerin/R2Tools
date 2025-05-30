@@ -1,0 +1,4 @@
+rootProject.name = "R2Tools"
+include ':app'
+include ':r2base'
+include ':lib_jvm'

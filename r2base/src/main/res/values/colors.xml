@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="red">#ff0000</color>
+    <color name="orange">#ffa500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#00ff00</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="blue">#0000ff</color>
+    <color name="purple">#800080</color>
+    <color name="back5">#0D000000</color>
+    <color name="back10">#1A000000</color>
+    <color name="back20">#33000000</color>
+    <color name="back30">#4D000000</color>
+    <color name="back40">#66000000</color>
+    <color name="back50">#80000000</color>
+    <color name="back60">#99000000</color>
+    <color name="back70">#B3000000</color>
+    <color name="back80">#CC000000</color>
+    <color name="back90">#E6000000</color>
+    <color name="back">#000000</color>
+    <color name="c111">#111111</color>
+    <color name="c222">#222222</color>
+    <color name="c333">#333333</color>
+    <color name="c444">#444444</color>
+    <color name="c555">#555555</color>
+    <color name="c666">#666666</color>
+    <color name="c777">#777777</color>
+    <color name="c888">#888888</color>
+    <color name="c999">#999999</color>
+    <color name="cAAA">#aaaaaa</color>
+    <color name="cBBB">#bbbbbb</color>
+    <color name="cCCC">#cccccc</color>
+    <color name="cDDD">#dddddd</color>
+    <color name="cEEE">#eeeeee</color>
+    <color name="cF8">#f8f8f8f8</color>
+
+</resources>

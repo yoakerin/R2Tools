@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="m_click_timestamp" type="id"/>
+    <item name="m_click_debounce_action" type="id"/>
+    <item name="m_debounce_action" type="id"/>
+    <string name="tools_preview_text">古往今来，不少文人墨客都曾留下与中秋有关的绝美诗篇。在2024锦江诗会的现场，一场以月为主题的诗词吟唱，让节日的氛围感瞬间拉满。随后的开蒙礼环节，小朋友们穿上汉服，站在孔子像前，在老师的带领下，毕恭毕敬地鞠了一躬，完成了孩童入学前必经的一步，中华传统文化的种子也在他们的心里生根发芽。</string>
+</resources>
