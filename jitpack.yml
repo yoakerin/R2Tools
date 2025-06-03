@@ -1,0 +1,5 @@
+jdk:
+  - openjdk8
+
+before_install:
+  - sdk install kotlin 1.6.0
