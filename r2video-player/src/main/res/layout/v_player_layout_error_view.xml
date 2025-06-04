@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/r2dp16"
+            android:gravity="center"
+            android:text="@string/v_player_error_message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/v_player_error_tip_text_size" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/v_player_shape_status_view_btn"
+            android:gravity="center"
+            android:paddingLeft="@dimen/r2dp18"
+            android:paddingTop="@dimen/r2dp4"
+            android:paddingRight="@dimen/r2dp18"
+            android:paddingBottom="@dimen/r2dp4"
+            android:text="@string/v_player_retry"
+            android:textColor="@color/v_player_theme_color"
+            android:textSize="@dimen/v_player_error_retry_text_size" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/stop_fullscreen"
+        android:layout_width="@dimen/v_player_controller_height"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:padding="@dimen/v_player_controller_icon_padding"
+        android:src="@drawable/v_player_ic_action_arrow_back"
+        android:visibility="gone"
+        tools:visibility="visible" />
+</FrameLayout>

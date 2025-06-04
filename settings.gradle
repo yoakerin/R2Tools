@@ -1,4 +1,8 @@
 rootProject.name = "R2Tools"
 include ':app'
 include ':r2base'
-include ':lib_jvm'
+include ':r2graphic'
+include ':r2widgets'
+include ':r2location'
+include ':r2video-player'
+//include ':r2umeng-share'

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#666"
+    tools:layout_height="@dimen/r2dp220">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/background_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <FrameLayout
+        android:id="@+id/player_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#555"
+        tools:layout_height="@dimen/r2dp150"
+        tools:layout_width="@dimen/r2dp260">
+
+        <androidx.appcompat.widget.AppCompatImageView
+
+            android:id="@+id/close_view"
+            android:layout_width="@dimen/r2dp24"
+            android:layout_height="@dimen/r2dp24"
+            android:layout_gravity="top|end"
+            android:padding="@dimen/r2dp4"
+            android:src="@drawable/v_player_ic_action_multi_mode_close"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/player_container"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#555"
+        tools:layout_height="match_parent"
+        tools:layout_marginStart="@dimen/r2dp10"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/list_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/v_player_multi_player_list_divider"
+            android:orientation="vertical"
+            android:showDividers="middle" />
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_view"
+        android:layout_width="@dimen/v_player_controller_height"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:padding="@dimen/v_player_controller_icon_padding"
+        android:src="@drawable/v_player_ic_action_arrow_back"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fullscreen_view"
+        android:layout_width="@dimen/v_player_controller_height"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:padding="@dimen/v_player_controller_icon_padding"
+        android:src="@drawable/v_player_selector_full_screen_button"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

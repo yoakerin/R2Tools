@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:viewBindingIgnore="true"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v_player_shape_standard_controller_top_bg"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingStart="@dimen/r2dp4"
+        android:paddingTop="@dimen/r2dp4"
+        android:paddingEnd="@dimen/r2dp30"
+        android:paddingBottom="@dimen/r2dp4"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/v_player_controller_text_size"
+        tools:text="这是一个视频的标题这是一个视频的标题这是一个视频的标题这是一个视频" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/start_play"
+        android:layout_width="@dimen/v_player_play_btn_size"
+        android:layout_height="@dimen/v_player_play_btn_size"
+        android:layout_gravity="center"
+        android:background="@drawable/v_player_shape_play_bg"
+        android:padding="@dimen/r2dp15"
+        android:src="@drawable/v_player_selector_play_button" />
+
+</FrameLayout>

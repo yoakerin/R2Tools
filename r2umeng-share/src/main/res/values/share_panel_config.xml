@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--分享面板配置项-->
+<resources>
+    <!--是否是宫格样式-->
+    <bool name="share_panel_is_grid">true</bool>
+    <!--宫格样式下span_count-->
+    <integer name="share_panel_span_count">4</integer>
+    <!--宫格样式下的item的垂直方向的间距-->
+    <dimen name="share_panel_item_space">@dimen/r2dp30</dimen>
+    <!--item icon 尺寸-->
+    <dimen name="share_panel_item_icon_size">@dimen/r2dp46</dimen>
+    <!--item 文字 大小-->
+    <dimen name="share_panel_item_text_size">@dimen/r2dp12</dimen>
+    <!--item 文字 颜色-->
+    <color name="share_panel_item_text_color">@color/back</color>
+    <!--分享标题与RecyclerView内容之间的间距-->
+    <dimen name="share_panel_space_between_title_and_content">@dimen/r2dp16</dimen>
+    <!--取消按钮与RecyclerView内容之间的间距-->
+    <dimen name="share_panel_space_between_cancel_and_content">@dimen/r2dp24</dimen>
+
+    <!--标题 文字-->
+    <string name="share_panel_title_text">分享至</string>
+    <!--标题 文字 大小-->
+    <dimen name="share_panel_title_text_size">@dimen/r2dp14</dimen>
+    <!--标题 文字 颜色-->
+    <color name="share_panel_title_text_color">@color/back</color>
+
+    <!--取消按钮 文字-->
+    <string name="share_panel_cancel_text">取消</string>
+    <!--取消按钮 文字 大小-->
+    <dimen name="share_panel_cancel_text_size">@dimen/r2dp16</dimen>
+    <!--取消按钮 文字 颜色-->
+    <color name="share_panel_cancel_text_color">@color/c999</color>
+    <!--取消按钮 高度-->
+    <dimen name="share_panel_cancel_height">@dimen/r2dp50</dimen>
+
+</resources>

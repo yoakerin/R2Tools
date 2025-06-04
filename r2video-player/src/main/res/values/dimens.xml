@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="v_player_controller_height">@dimen/r2dp46</dimen>
+    <dimen name="v_player_controller_icon_padding">@dimen/r2dp14</dimen>
+    <dimen name="v_player_controller_seekbar_max_size">@dimen/r2dp1</dimen>
+    <dimen name="v_player_controller_seekbar_size_n">@dimen/r2dp14</dimen>
+    <dimen name="v_player_controller_seekbar_size_s">@dimen/r2dp14</dimen>
+    <dimen name="v_player_controller_text_size">@dimen/r2dp16</dimen>
+    <dimen name="v_player_controller_time_text_size">@dimen/r2dp12</dimen>
+    <dimen name="v_player_play_btn_size">@dimen/r2dp50</dimen>
+
+
+
+    <dimen name="v_player_error_tip_text_size">@dimen/r2dp14</dimen>
+    <dimen name="v_player_error_retry_text_size">@dimen/r2dp14</dimen>
+</resources>

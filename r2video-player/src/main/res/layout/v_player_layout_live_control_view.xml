@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true">
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:layout_gravity="bottom"
+        android:background="@drawable/v_player_shape_standard_controller_bottom_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_play"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:padding="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_selector_play_button" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:padding="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_ic_action_autorenew" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fullscreen"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:padding="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_selector_full_screen_button" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_channel">channel</string>
+    <string name="umeng_app_key">umeng_app_key</string>
+    <string name="umeng_push_secret">umeng_push_secret</string>
+
+    <string name="wx_app_id">11111111</string>
+    <string name="wx_app_key">11111111</string>
+    <string name="qq_app_id">22222222</string>
+    <!--tencent+qq_app_id-->
+    <string name="tencent_auth_scheme">tencent22222222</string>
+    <string name="qq_app_key">22222222</string>
+    <string name="sina_app_id">33333333</string>
+    <string name="sina_app_key">33333333</string>
+    <string name="sina_redirect_url">http://sns.whalecloud.com</string>
+</resources>

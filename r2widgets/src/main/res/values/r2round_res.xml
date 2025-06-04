@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="r2_config_color_separator">#DEE0E2</color>
+    <attr name="r2_general_shadow_alpha" format="float" />
+    <attr name="r2_radius" format="dimension" />
+    <attr name="r2_backgroundColor" format="color" />
+    <attr name="r2_borderColor" format="color" />
+    <attr name="r2_borderWidth" format="dimension" />
+    <attr name="r2_general_shadow_elevation" format="dimension" />
+    <attr name="r2_alpha_pressed" format="float" />
+    <attr name="r2_alpha_disabled" format="float" />
+    <attr name="R2ImageViewStyle" format="reference" />
+    <declare-styleable name="R2Layout">
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+        <attr name="r2_bottomDividerHeight" format="dimension" />
+        <attr name="r2_bottomDividerColor" format="color|reference" />
+        <attr name="r2_bottomDividerInsetLeft" format="dimension" />
+        <attr name="r2_bottomDividerInsetRight" format="dimension" />
+        <attr name="r2_topDividerHeight" format="dimension" />
+        <attr name="r2_topDividerColor" format="color|reference" />
+        <attr name="r2_topDividerInsetLeft" format="dimension" />
+        <attr name="r2_topDividerInsetRight" format="dimension" />
+        <attr name="r2_leftDividerWidth" format="dimension" />
+        <attr name="r2_leftDividerColor" format="color|reference" />
+        <attr name="r2_leftDividerInsetTop" format="dimension" />
+        <attr name="r2_leftDividerInsetBottom" format="dimension" />
+        <attr name="r2_rightDividerWidth" format="dimension" />
+        <attr name="r2_rightDividerColor" format="color|reference" />
+        <attr name="r2_rightDividerInsetTop" format="dimension" />
+        <attr name="r2_rightDividerInsetBottom" format="dimension" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" format="color|reference" />
+        <attr name="r2_hideRadiusSide" format="enum">
+            <enum name="none" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="left" value="4" />
+        </attr>
+        <attr name="r2_showBorderOnlyBeforeL" format="boolean" />
+        <attr name="r2_shadowElevation" format="dimension" />
+        <attr name="r2_shadowAlpha" format="float" />
+        <attr name="r2_outlineInsetTop" format="dimension" />
+        <attr name="r2_outlineInsetLeft" format="dimension" />
+        <attr name="r2_outlineInsetRight" format="dimension" />
+        <attr name="r2_outlineInsetBottom" format="dimension" />
+        <attr name="r2_outlineExcludePadding" format="boolean" />
+    </declare-styleable>
+
+
+    <!--假体：用于提示-->
+    <declare-styleable name="R2ConstraintLayout">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+    <!--假体：用于提示-->
+    <declare-styleable name="R2FrameLayout">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+    <!--假体：用于提示-->
+    <declare-styleable name="R2LinearLayout">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="R2RelativeLayout">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+
+    <declare-styleable name="R2PriorityLinearLayout">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+    <declare-styleable name="R2PriorityLinearLayout_Layout">
+        <attr name="r2_layout_priority" format="enum">
+            <enum name="disposable" value="1" />
+            <enum name="mini_content_protection" value="2" />
+            <enum name="incompressible" value="3" />
+        </attr>
+        <attr name="r2_layout_miniContentProtectionSize" format="dimension" />
+    </declare-styleable>
+
+    <attr name="r2_border_width" format="dimension" />
+    <attr name="r2_border_color" format="color" />
+    <attr name="r2_selected_mask_color" format="color" />
+    <attr name="r2_selected_border_color" format="color" />
+    <attr name="r2_selected_border_width" format="dimension" />
+    <attr name="r2_corner_radius" format="dimension" />
+    <attr name="r2_is_oval" format="boolean" />
+    <attr name="r2_is_circle" format="boolean" />
+    <attr name="r2_is_touch_select_mode_enabled" format="boolean" />
+    <declare-styleable name="R2ImageView">
+        <attr name="r2_border_width" />
+        <attr name="r2_border_color" />
+        <attr name="r2_selected_mask_color" />
+        <attr name="r2_selected_border_color" />
+        <attr name="r2_selected_border_width" />
+        <attr name="r2_corner_radius" />
+        <attr name="r2_is_oval" />
+        <attr name="r2_is_circle" />
+        <attr name="r2_is_touch_select_mode_enabled" />
+    </declare-styleable>
+    <declare-styleable name="R2ImageView2">
+        <attr name="r2_border_width" />
+        <attr name="r2_border_color" />
+        <attr name="r2_selected_mask_color" />
+        <attr name="r2_selected_border_color" />
+        <attr name="r2_selected_border_width" />
+        <attr name="r2_corner_radius" />
+        <attr name="r2_is_circle" />
+        <attr name="r2_is_touch_select_mode_enabled" />
+    </declare-styleable>
+
+
+    <declare-styleable name="R2Button">
+        <attr name="r2_bottomDividerHeight" />
+        <attr name="r2_bottomDividerColor" />
+        <attr name="r2_bottomDividerInsetLeft" />
+        <attr name="r2_bottomDividerInsetRight" />
+        <attr name="r2_topDividerHeight" />
+        <attr name="r2_topDividerColor" />
+        <attr name="r2_topDividerInsetLeft" />
+        <attr name="r2_topDividerInsetRight" />
+        <attr name="r2_leftDividerWidth" />
+        <attr name="r2_leftDividerColor" />
+        <attr name="r2_leftDividerInsetTop" />
+        <attr name="r2_leftDividerInsetBottom" />
+        <attr name="r2_rightDividerWidth" />
+        <attr name="r2_rightDividerColor" />
+        <attr name="r2_rightDividerInsetTop" />
+        <attr name="r2_rightDividerInsetBottom" />
+        <attr name="r2_radius" />
+        <attr name="r2_borderColor" />
+        <attr name="r2_borderWidth" />
+        <attr name="r2_outerNormalColor" />
+        <attr name="r2_hideRadiusSide" />
+        <attr name="r2_showBorderOnlyBeforeL" />
+        <attr name="r2_shadowElevation" />
+        <attr name="r2_shadowAlpha" />
+        <attr name="r2_outlineInsetTop" />
+        <attr name="r2_outlineInsetLeft" />
+        <attr name="r2_outlineInsetRight" />
+        <attr name="r2_outlineInsetBottom" />
+        <attr name="r2_outlineExcludePadding" />
+    </declare-styleable>
+
+</resources>

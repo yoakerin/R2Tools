@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="R2CountDownProgressView">
+
+        <attr name="r2cd_backgroundColorCenter" format="color" />
+        <attr name="r2cd_borderWidth" format="dimension" />
+        <attr name="r2cd_borderDrawColor" format="color" />
+        <attr name="r2cd_borderBottomColor" format="color" />
+
+        <attr name="r2cd_markBallWidth" format="dimension" />
+        <attr name="r2cd_markBallColor" format="color" />
+        <attr name="r2cd_markBallFlag" format="boolean" />
+
+        <attr name="r2cd_startAngle" format="float" />
+        <attr name="r2cd_clockwise" format="boolean" />
+
+        <attr name="r2cd_countTime" format="integer" />
+
+        <attr name="r2cd_textStyle" format="enum">
+            <enum name="jump" value="0" />
+            <enum name="second" value="1" />
+            <enum name="clock" value="2" />
+            <enum name="none" value="3" />
+        </attr>
+
+        <attr name="r2cd_titleCenterText" format="string" />
+        <attr name="r2cd_titleCenterColor" format="color" />
+        <attr name="r2cd_titleCenterSize" format="dimension" />
+
+    </declare-styleable>
+
+
+
+</resources>

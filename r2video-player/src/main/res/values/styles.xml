@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VideoPlayerFloatWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_float_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_float_window_exit</item>
+    </style>
+
+    <style name="speed_text_style">
+        <item name="android:textSize">@dimen/r2dp18</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_speed_item</item>
+        <item name="android:textColor">@color/speed_text_color</item>
+        <item name="android:layout_height">@dimen/r2dp84</item>
+        <item name="android:layout_width">@dimen/r2dp94</item>
+    </style>
+</resources>

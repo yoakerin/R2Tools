@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--分享面板配置项-->
+<resources>
+    <!--items的文案-->
+    <string name="share_panel_share_qq">QQ</string>
+    <string name="share_panel_share_qq_zone">QQ空间</string>
+    <string name="share_panel_share_wechat">微信</string>
+    <string name="share_panel_share_wechat_circle">朋友圈</string>
+    <string name="share_panel_share_sina_weibo">微博</string>
+    <string name="share_panel_share_copy">复制链接</string>
+    <string name="share_panel_share_poster">海报分享</string>
+    <string name="share_panel_share_poster_download">下载海报</string>
+    <string name="share_panel_share_copy_tip">复制成功</string>
+    <string name="share_panel_download_permission_tip">APP申请写入外部存储的权限，此权限用于海报下载存储。</string>
+
+</resources>

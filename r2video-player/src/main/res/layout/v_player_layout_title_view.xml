@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:background="@drawable/v_player_shape_standard_controller_top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backView"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:layout_gravity="center"
+           android:padding="@dimen/r2dp12"
+            android:src="@drawable/v_player_ic_action_arrow_back" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/v_player_controller_text_size"
+            tools:text="这是一个视频的标题" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/float_window"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/v_player_controller_icon_padding"
+            android:paddingBottom="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_ic_action_float_window" />
+
+    </LinearLayout>
+
+</FrameLayout>

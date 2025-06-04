@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yoake.widgets.layout.R2FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    app:r2_borderColor="@color/cBBB"
+    app:r2_borderWidth="@dimen/r2dp1"
+    app:r2_radius="@dimen/r2dp3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/r2dp16"
+        android:paddingTop="@dimen/r2dp4"
+        android:paddingEnd="@dimen/r2dp16"
+        android:paddingBottom="@dimen/r2dp4"
+        android:text="这是一个Pop"
+        android:textColor="@color/back"
+        android:textSize="@dimen/r2dp16" />
+
+</com.yoake.widgets.layout.R2FrameLayout>

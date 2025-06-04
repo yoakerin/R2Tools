@@ -10,7 +10,6 @@ import com.yoake.r2base.R2Log
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
@@ -28,7 +27,6 @@ internal class CoroutineLifecycleListener(private val deferred: Deferred<*>) :
     }
 }
 
-@OptIn(DelicateCoroutinesApi::class)
 internal val backgroundContext =
     newFixedThreadPoolContext(Runtime.getRuntime().availableProcessors() * 2, "Loader")
 

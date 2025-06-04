@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="R2ReadMoreTextView">
+        <attr name="r2readMoreMaxLines" format="integer" />
+        <attr name="r2readMoreOverflow">
+            <flag name="clip" value="1" />
+            <flag name="ellipsis" value="2" />
+        </attr>
+        <attr name="r2readMoreText" format="string" />
+        <attr name="r2readMoreTextSize" format="dimension" />
+        <attr name="r2readMoreTextColor" format="reference|color" />
+        <attr name="r2readMoreTextUnderline" format="boolean" />
+        <attr name="r2readMoreTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="r2readMoreFontFamily" format="string" />
+        <attr name="r2readMoreTypeface" format="integer">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+            <enum name="sans_serif_medium" value="4" />
+        </attr>
+        <attr name="r2readMoreTextAppearance" format="reference" />
+        <attr name="r2readMoreToggleArea">
+            <flag name="none" value="1" />
+            <flag name="all" value="2" />
+            <flag name="more" value="3" />
+        </attr>
+
+        <attr name="r2readLessText" format="string" />
+        <attr name="r2readLessTextSize" format="dimension" />
+        <attr name="r2readLessTextColor" format="reference|color" />
+        <attr name="r2readLessTextUnderline" format="boolean" />
+        <attr name="r2readLessTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="r2readLessFontFamily" format="string" />
+        <attr name="r2readLessTypeface" format="integer">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+            <enum name="sans_serif_medium" value="4" />
+        </attr>
+        <attr name="r2readLessTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <attr name="r2readMoreTextViewStyle" format="reference" />
+    <attr name="r2readLessTextViewStyle" format="reference" />
+</resources>

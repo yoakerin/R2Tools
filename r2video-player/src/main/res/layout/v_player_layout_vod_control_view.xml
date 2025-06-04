@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true">
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v_player_controller_height"
+        android:layout_gravity="bottom"
+        android:background="@drawable/v_player_shape_standard_controller_bottom_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_play"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:padding="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_selector_play_button" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/curr_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/v_player_controller_time_text_size"
+            tools:text="00:00" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:max="1000"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:progressDrawable="@drawable/v_player_layer_progress_bar"
+            android:thumb="@drawable/v_player_seekbar_thumb"
+            android:thumbOffset="0dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/v_player_controller_time_text_size"
+            tools:text="00:00" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/speed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/r2dp10"
+            android:paddingEnd="@dimen/r2dp10"
+
+            android:text="x1.0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/v_player_controller_time_text_size"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fullscreen"
+            android:layout_width="@dimen/v_player_controller_height"
+            android:layout_height="@dimen/v_player_controller_height"
+            android:padding="@dimen/v_player_controller_icon_padding"
+            android:src="@drawable/v_player_selector_full_screen_button" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/bottom_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:max="1000"
+        android:progressDrawable="@drawable/v_player_layer_progress_bar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/speed_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/r2dp60"
+        android:divider="@drawable/shape_speed_divider"
+        android:dividerPadding="@dimen/r2dp6"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+
+            style="@style/speed_text_style"
+            android:text="x1.0" />
+
+        <TextView
+            style="@style/speed_text_style"
+            android:text="x1.25" />
+
+
+        <TextView
+            style="@style/speed_text_style"
+            android:text="x1.5" />
+
+
+        <TextView
+            style="@style/speed_text_style"
+            android:text="x1.75" />
+
+
+        <TextView
+            style="@style/speed_text_style"
+            android:text="x2.0" />
+    </LinearLayout>
+
+</FrameLayout>

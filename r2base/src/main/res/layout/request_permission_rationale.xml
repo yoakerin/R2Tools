@@ -3,18 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/dp16"
+    android:layout_margin="@dimen/r2dp16"
     android:background="@color/white"
     android:orientation="vertical"
-    app:cardCornerRadius="@dimen/dp16"
-    app:cardElevation="@dimen/dp4">
+    app:cardCornerRadius="@dimen/r2dp16"
+    app:cardElevation="@dimen/r2dp4">
 
     <LinearLayout
         android:id="@+id/rational_root"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/dp10"
+        android:padding="@dimen/r2dp10"
         app:divider="@drawable/permission_item_transparent_divider"
         app:showDividers="middle">
 
