@@ -42,7 +42,7 @@
                     android:layout_height="@dimen/r2dp80"
                     android:scaleType="centerCrop"
                     android:src="@drawable/tools_preview"
-                    app:r2_border_color="@color/deep_sky_blue"
+                    app:r2_border_color="@color/r2deep_sky_blue"
                     app:r2_border_width="@dimen/r2dp2"
                     app:r2_is_circle="true" />
 
@@ -52,13 +52,13 @@
                     android:layout_height="@dimen/r2dp60"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:r2cd_backgroundColorCenter="@color/back"
-                    app:r2cd_borderBottomColor="@color/back"
-                    app:r2cd_borderDrawColor="@color/orange"
+                    app:r2cd_backgroundColorCenter="@color/r2black"
+                    app:r2cd_borderBottomColor="@color/r2black"
+                    app:r2cd_borderDrawColor="@color/r2orange"
 
                     app:r2cd_borderWidth="@dimen/r2dp3"
                     app:r2cd_countTime="6000"
-                    app:r2cd_markBallColor="@color/red"
+                    app:r2cd_markBallColor="@color/r2red"
                     app:r2cd_markBallWidth="@dimen/r2dp6"
                     app:r2cd_textStyle="second"
 
@@ -71,7 +71,7 @@
                     android:layout_height="@dimen/r2dp80"
                     android:scaleType="centerCrop"
                     android:src="@drawable/tools_preview"
-                    app:r2_border_color="@color/red"
+                    app:r2_border_color="@color/r2red"
                     app:r2_border_width="@dimen/r2dp1"
                     app:r2_corner_radius="@dimen/r2dp10" />
 
@@ -88,7 +88,7 @@
                 <com.yoake.widgets.layout.R2RelativeLayout
                     android:layout_width="@dimen/r2dp80"
                     android:layout_height="@dimen/r2dp80"
-                    app:r2_borderColor="@color/yellow"
+                    app:r2_borderColor="@color/r2yellow"
                     app:r2_borderWidth="@dimen/r2dp2"
 
                     app:r2_radius="@dimen/r2dp10">
@@ -133,11 +133,11 @@
                 <com.yoake.widgets.button.R2Button
                     android:layout_width="@dimen/r2dp80"
                     android:layout_height="@dimen/r2dp40"
-                    android:background="@color/back"
+                    android:background="@color/r2black"
                     android:text="按钮"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/r2yellow"
                     android:textSize="@dimen/r2dp16"
-                    app:r2_borderColor="@color/yellow"
+                    app:r2_borderColor="@color/r2yellow"
                     app:r2_borderWidth="@dimen/r2dp1"
                     app:r2_radius="@dimen/r2dp20" />
             </LinearLayout>
@@ -151,10 +151,10 @@
             android:layout_margin="@dimen/r2dp10"
             android:text="@string/tools_preview_text"
             app:r2readLessText="收起"
-            app:r2readLessTextColor="@color/orange"
+            app:r2readLessTextColor="@color/r2orange"
             app:r2readMoreMaxLines="2"
             app:r2readMoreText="展开"
-            app:r2readMoreTextColor="@color/red" />
+            app:r2readMoreTextColor="@color/r2red" />
 
         <com.yoake.widgets.layout.R2EdgeTransparentLayout
             android:layout_width="match_parent"
@@ -172,7 +172,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/r2dp10"
-            android:background="@color/back"
+            android:background="@color/r2black"
             android:padding="@dimen/r2dp10"
             android:text="@string/tools_preview_text"
             android:textColor="@color/white" />
@@ -182,7 +182,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/r2dp10"
-            android:background="@color/back"
+            android:background="@color/r2black"
             android:padding="@dimen/r2dp10"
             android:text="info"
             android:textColor="@color/white" />

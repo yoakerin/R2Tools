@@ -146,7 +146,7 @@ public class R2AlertDialog {
             btn_pos.setText(text);
         }
         if (color == -1) {
-            color = R.color.action_sheet_blue;
+            color = R.color.r2_alter_action_sheet_blue;
         }
         btn_pos.setTextColor(ContextCompat.getColor(context, color));
         btn_pos.setOnClickListener(new OnClickListener() {
@@ -183,7 +183,7 @@ public class R2AlertDialog {
             btn_neg.setText(text);
         }
         if (color == -1) {
-            color = R.color.action_sheet_blue;
+            color = R.color.r2_alter_action_sheet_blue;
         }
         btn_neg.setTextColor(ContextCompat.getColor(context, color));
 

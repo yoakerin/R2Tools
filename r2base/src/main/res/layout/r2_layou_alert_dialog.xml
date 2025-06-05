@@ -14,7 +14,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:textColor="@color/back"
+        android:textColor="@color/r2black"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -27,14 +27,14 @@
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:lineSpacingMultiplier="1.2"
-        android:textColor="@color/back"
+        android:textColor="@color/r2black"
         android:textSize="16sp" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:layout_marginTop="15dp"
-        android:background="@color/line_default_color" />
+        android:background="@color/r2_alter_line_default_color" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,14 +49,14 @@
             android:layout_weight="1"
             android:background="@drawable/r2_alert_dialog_left_selector"
             android:gravity="center"
-            android:textColor="@color/action_sheet_blue"
+            android:textColor="@color/r2_alter_action_sheet_blue"
             android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/img_line"
             android:layout_width="0.5dp"
             android:layout_height="43dp"
-            android:background="@color/line_default_color" />
+            android:background="@color/r2_alter_line_default_color" />
 
         <Button
             android:id="@+id/btn_pos"
@@ -66,7 +66,7 @@
             android:layout_weight="1"
             android:background="@drawable/r2_alert_dialog_right_selector"
             android:gravity="center"
-            android:textColor="@color/action_sheet_blue"
+            android:textColor="@color/r2_alter_action_sheet_blue"
             android:textSize="16sp" />
     </LinearLayout>
 

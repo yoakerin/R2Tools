@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/orange"
-    app:r2_borderColor="@color/cBBB"
+    android:background="@color/r2orange"
+    app:r2_borderColor="@color/r2cBBB"
     app:r2_borderWidth="@dimen/r2dp1"
     app:r2_radius="@dimen/r2dp3">
 
@@ -16,7 +16,7 @@
         android:paddingEnd="@dimen/r2dp16"
         android:paddingBottom="@dimen/r2dp4"
         android:text="这是一个Pop"
-        android:textColor="@color/back"
+        android:textColor="@color/r2black"
         android:textSize="@dimen/r2dp16" />
 
 </com.yoake.widgets.layout.R2FrameLayout>

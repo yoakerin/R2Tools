@@ -1,6 +1,4 @@
 <resources>
-
-    <dimen name="r2_alter_dialog_radius">12dp</dimen>
     <dimen name="r2_loading_dialog_width">80dp</dimen>
     <dimen name="r2_loading_dialog_padding">20dp</dimen>
 
