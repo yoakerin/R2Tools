@@ -15,7 +15,7 @@ import com.yoake.r2base.R2Log
 import com.yoake.r2base.kit.onClick
 import com.yoake.r2base.permissions.R2PermissionLauncher
 import com.yoake.r2base.utils.R2StorageUtils
-import com.yoake.widgets.dialog.R2AlertDialog
+import com.yoake.r2base.utils.dialog.R2AlertDialog
 import com.yoake.widgets.dialog.R2LoadingDialog
 import com.yoake.widgets.popup.HorizontalGravity
 import com.yoake.widgets.popup.R2BasePopup

@@ -37,4 +37,6 @@
     <color name="cEEE">#eeeeee</color>
     <color name="cF8">#f8f8f8f8</color>
 
+    <color name="line_default_color">#e5e5e5</color>
+    <color name="action_sheet_blue">#037BFF</color>
 </resources>

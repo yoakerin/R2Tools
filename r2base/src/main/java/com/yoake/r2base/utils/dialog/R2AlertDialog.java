@@ -1,4 +1,6 @@
-package com.yoake.widgets.dialog;
+package com.yoake.r2base.utils.dialog;
+
+
 import android.app.Dialog;
 import android.content.Context;
 import android.text.TextUtils;
@@ -16,7 +18,8 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.yoake.widgets.R;
+import com.yoake.r2base.R;
+
 
 /***
  * 仿IOS弹框提示
