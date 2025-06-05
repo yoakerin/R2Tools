@@ -15,6 +15,13 @@ buildscript {
 }
 
 allprojects {
+    configurations.all {
+        resolutionStrategy.eachDependency {
+            if (it.requested.group == 'org.jetbrains.kotlin') {
+                it.useVersion '1.6.20'
+            }
+        }
+    }
     repositories {
         mavenCentral()
         maven { url 'https://maven.aliyun.com/repository/public/' }

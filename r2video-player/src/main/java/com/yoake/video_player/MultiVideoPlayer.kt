@@ -11,9 +11,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ScrollView
-import androidx.core.view.get
-import androidx.core.view.setPadding
-import androidx.core.view.size
+
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.bumptech.glide.Glide
@@ -106,7 +104,7 @@ class MultiVideoPlayer(context: Context, attrs: AttributeSet? = null) : FrameLay
      * 获取主屏播放器
      */
     fun getMainPlayer(): VideoPlayer {
-        return playerContainer[0] as VideoPlayer
+        return playerContainer.getChildAt(0) as VideoPlayer
     }
 
     fun setVideoController(mediaController: VideoControllerExt?) {
@@ -146,7 +144,7 @@ class MultiVideoPlayer(context: Context, attrs: AttributeSet? = null) : FrameLay
                 this.setImageResource(R.drawable.v_player_ic_action_multi_mode_close)
                 this.visibility = View.GONE
                 val padding = resources.getDimensionPixelSize(R.dimen.r2dp4)
-                setPadding(padding)
+                setPadding(padding,padding,padding,padding)
                 val size =
                     resources.getDimensionPixelSize(R.dimen.r2dp16) + 2 * padding
                 this.layoutParams = LayoutParams(size, size).apply {
@@ -154,14 +152,14 @@ class MultiVideoPlayer(context: Context, attrs: AttributeSet? = null) : FrameLay
                 }
             }
             closeView.setOnClickListener {
-                removePlayerAnim(this[0] as VideoPlayer, this)
+                removePlayerAnim(this.getChildAt(0) as VideoPlayer, this)
             }
             this.addView(closeView, 1)
 
         }
         //设置容器点击事情 - 切换主屏和副屏内容
         minContainer.setOnClickListener {
-            val tempMinPlayer = minContainer[0] as VideoPlayer
+            val tempMinPlayer = minContainer.getChildAt(0) as VideoPlayer
             val tempMainPlayer = getMainPlayer()
 
             tempMainPlayer.apply {
@@ -185,7 +183,7 @@ class MultiVideoPlayer(context: Context, attrs: AttributeSet? = null) : FrameLay
         }
         listPlayer.add(player)
         // size==0 说明是添加的第一个 新建主屏控制器 并将常规播放器的控制器状态同步过去
-        if (listContainer.size == 0) {
+        if (listContainer.childCount == 0) {
             backgroundThumb.visibility = View.VISIBLE
             val controller = MultiVideoController(context)
             val mediaController = getMainPlayer().getVideoController()

@@ -11,7 +11,6 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.view.animation.LinearInterpolator
 import android.widget.FrameLayout
-import androidx.core.view.get
 import xyz.doikki.videoplayer.util.PlayerUtils
 
 /**
@@ -80,7 +79,7 @@ fun MultiVideoPlayer.requestLayout2() {
     val childCount = listContainer.childCount
     val targetWidth = measuredWidth - mainPlayerWidth() - hSpace
     for (i in 0 until childCount) {
-        val container = listContainer[i]
+        val container = listContainer.getChildAt(i)
         container.layoutParams.apply {
             width = targetWidth
             height = (targetWidth * 9f / 16).toInt()
@@ -140,7 +139,7 @@ fun MultiVideoPlayer.addPlayerAnim(player: VideoPlayer, container: FrameLayout) 
         override fun onAnimationRepeat(animation: Animator) {}
         override fun onAnimationEnd(animation: Animator) {
             player.start()
-            container[1].visibility = View.VISIBLE
+            container.getChildAt(1).visibility = View.VISIBLE
         }
     })
 
@@ -171,7 +170,7 @@ fun MultiVideoPlayer.removePlayerAnim(
     }
     valueAnimator.addListener(object : Animator.AnimatorListener {
         override fun onAnimationStart(animation: Animator) {
-            container[1].visibility = View.GONE
+            container.getChildAt(1).visibility = View.GONE
         }
 
         override fun onAnimationCancel(animation: Animator) {}

@@ -30,7 +30,7 @@ android {
 
 dependencies {
     compileOnly project(':r2base')
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'jp.wasabeef:glide-transformations:4.3.0'
     implementation 'xyz.doikki.android.dkplayer:player-ijk:3.3.7'
